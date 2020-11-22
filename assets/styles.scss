@@ -1,0 +1,35 @@
+a {
+  text-decoration: none;
+}
+
+.main-container {
+  margin-bottom: 100px;
+}
+
+.main-container-cart {
+  margin-bottom: 100px;
+}
+
+.title-footer {
+  position: absolute;
+  z-index: 3;
+  top: -58px;
+  width: 100%;
+}
+
+.menu-ulises {
+  z-index: 20;
+}
+
+#partners .v-image .v-responsive__content {
+  width: 100% !important;
+}
+.example_partner {
+  filter: contrast(50%);
+}
+
+@media only screen and (min-width: 1024px) {
+  .main-container.container {
+    width: 1024px !important;
+  }
+}
