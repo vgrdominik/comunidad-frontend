@@ -5,13 +5,13 @@
       <v-row>
         <v-col>
           <h1 :class="{ 'display-2': true, 'font-weight-bold': true, 'mt-12': $vuetify.breakpoint.mdAndUp }">
-            <v-row>Gestor de estados de pago.</v-row>
+            <v-row>MI COMUNIDAD</v-row>
           </h1>
         </v-col>
       </v-row>
       <v-row>
         <v-col>
-          <p>Con esta aplicación podrás gestionar los pagos de la tienda virtual.</p>
+          <p>Disfruta de sorteos solo con interactuar conmigo.</p>
         </v-col>
       </v-row>
       <v-row>

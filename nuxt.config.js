@@ -91,7 +91,7 @@ export default {
   ** See https://axios.nuxtjs.org/options
   */
   axios: {
-    baseURL:  'https://payments-api.mandragorashop.com',//'{BASE_URL_OF API}/', http://localhost:8000, https://payments-api.mandragorashop.com/
+    baseURL:  'https://api.iamvalentigamez.com',//'{BASE_URL_OF API}/', http://localhost:8000, https://payments-api.mandragorashop.com/
     credentials: true
   },
 

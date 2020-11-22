@@ -82,7 +82,7 @@
                   <v-img src="/img/payment_status_logo_180.png" class="float-right" width="50px" title="Payment status" alt="Payment status" />
                 </v-col>
                 <v-col class="mt-2 ml-3 pl-0 title font-weight-black">
-                  PayStat
+                  IamValentiGamez
                 </v-col>
               </v-row>
             </a>
@@ -131,7 +131,7 @@
     <v-footer color="transparent">
       <v-row class="title-footer">
         <v-col class="text-center primary--text display-4 font-weight-black">
-          <a href="/" title="Home">PayStat</a>
+          <a href="/" title="Home">IamValentiGamez</a>
         </v-col>
       </v-row>
       <v-container>
@@ -139,7 +139,7 @@
 
           <v-card-text class="secondary--text">
             <br><br><br>
-            Puedes encontrarnos más información en ...
+            Disfruta de sorteos con mi comunidad.
           </v-card-text>
         </CtCard>
         <v-row class="pt-12">
