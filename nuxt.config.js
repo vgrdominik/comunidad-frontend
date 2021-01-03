@@ -7,7 +7,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: 'Payment status',
+    title: 'Comunidad Valentí Gàmez',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -91,7 +91,7 @@ export default {
   ** See https://axios.nuxtjs.org/options
   */
   axios: {
-    baseURL:  'https://api.iamvalentigamez.com',//'{BASE_URL_OF API}/', http://localhost:8000, https://payments-api.mandragorashop.com/
+    baseURL:  'http://localhost:8000',//'{BASE_URL_OF API}/', http://localhost:8000, https://api.iamvalentigamez.com
     credentials: true
   },
 

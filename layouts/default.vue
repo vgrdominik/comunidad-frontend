@@ -10,7 +10,7 @@
       <v-list dense>
         <template v-for="item in items">
           <v-row
-            v-if="item.heading"
+            v-if="item.heading && (!item.role || (user && userRoles.includes(item.role)))"
             :key="item.heading"
             align="center"
           >
@@ -49,7 +49,7 @@
             </v-list-item>
           </v-list-group>
           <v-list-item
-            v-else
+            v-else-if="!item.role || (user && userRoles.includes(item.role))"
             :key="item.text"
             link
           >
@@ -166,13 +166,19 @@ export default {
     dialog: false,
     drawer: false,
     items: [
-      { icon: ['fas', 'cube'], text: 'Pagos', path: '/payment' },
+      { heading: 'Admin', role: 'admin' },
+      { icon: ['fas', 'cube'], text: 'Pagos', path: '/admin/payment', role: 'admin' },
+      { icon: ['fas', 'cube'], text: 'Sorteos', path: '/admin/raffle', role: 'admin' },
     ],
   }),
 
   computed: {
     user () {
       return this.$store.state.user.user
+    },
+
+    userRoles () {
+      return (this.$store.state.user.user) ? this.$store.state.user.user.role.split(',') : []
     },
 
     userId () {

@@ -1,0 +1,475 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20201124.030052.12968.0.001.json",
+    "dumpEventTime": "2020-11-24T03:00:52Z",
+    "dumpEventTimeStamp": "1606183252574",
+    "processId": 12968,
+    "cwd": "E:\\ValentiGamez\\Projects\\valentigamez_com\\comunidad\\frontend",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "E:\\ValentiGamez\\Projects\\valentigamez_com\\comunidad\\frontend\\node_modules\\.bin\\\\..\\nuxt\\bin\\nuxt.js"
+    ],
+    "nodejsVersion": "v12.14.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.14.0",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.14.0/node-v12.14.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.14.0/node-v12.14.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.14.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18363",
+    "osVersion": "Windows 10 Home",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-8600K CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 144812,
+        "nice": 0,
+        "sys": 86203,
+        "idle": 408203,
+        "irq": 6687
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8600K CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 235718,
+        "nice": 0,
+        "sys": 76046,
+        "idle": 327453,
+        "irq": 1281
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8600K CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 195218,
+        "nice": 0,
+        "sys": 76437,
+        "idle": 367421,
+        "irq": 734
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8600K CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 189796,
+        "nice": 0,
+        "sys": 122843,
+        "idle": 326437,
+        "irq": 1015
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8600K CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 172687,
+        "nice": 0,
+        "sys": 94203,
+        "idle": 372187,
+        "irq": 765
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8600K CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 183234,
+        "nice": 0,
+        "sys": 96187,
+        "idle": 359656,
+        "irq": 1265
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "30:9c:23:a6:8a:49",
+        "address": "fe80::4469:ef7c:8783:acf6",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 16
+      },
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "30:9c:23:a6:8a:49",
+        "address": "192.168.0.17",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "VirtualBox Host-Only Network",
+        "internal": false,
+        "mac": "0a:00:27:00:00:08",
+        "address": "fe80::91d0:f71d:6d49:53e9",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 8
+      },
+      {
+        "name": "VirtualBox Host-Only Network",
+        "internal": false,
+        "mac": "0a:00:27:00:00:08",
+        "address": "192.168.56.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-S48I4GR"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff7caa31729",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x00007ff7caa35b4c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28316"
+    },
+    {
+      "pc": "0x00007ff7caa34b08",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24152"
+    },
+    {
+      "pc": "0x00007ff7cab2369b",
+      "symbol": "v8::base::CPU::has_sse+37723"
+    },
+    {
+      "pc": "0x00007ff7cb3282de",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff7cb310321",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff7cb1ddbec",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff7cb1e8f90",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x00007ff7cb1e5ac4",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3204"
+    },
+    {
+      "pc": "0x00007ff7cb1db353",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff7cb1d9b24",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2356"
+    },
+    {
+      "pc": "0x00007ff7cb1fadf5",
+      "symbol": "v8::internal::Factory::NewFillerObject+53"
+    },
+    {
+      "pc": "0x00007ff7caf66e19",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+4057"
+    },
+    {
+      "pc": "0x00007ff7cb75404d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+567949"
+    },
+    {
+      "pc": "0x0000034ad337cb9d",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2183712768,
+    "totalCommittedMemory": 2183712768,
+    "usedMemory": 2115999496,
+    "availableMemory": 46866216,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 33554432,
+        "capacity": 16759808,
+        "used": 1089784,
+        "available": 15670024
+      },
+      "old_space": {
+        "memorySize": 2047193088,
+        "committedMemory": 2047193088,
+        "capacity": 2036758368,
+        "used": 2036654088,
+        "available": 104280
+      },
+      "code_space": {
+        "memorySize": 2785280,
+        "committedMemory": 2785280,
+        "capacity": 2221984,
+        "used": 2221984,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 27791360,
+        "committedMemory": 27791360,
+        "capacity": 4099600,
+        "used": 4099600,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 71217152,
+        "committedMemory": 71217152,
+        "capacity": 71080112,
+        "used": 71080112,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 909312,
+        "committedMemory": 909312,
+        "capacity": 821632,
+        "used": 821632,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 16759808,
+        "used": 0,
+        "available": 16759808
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 171.687,
+    "kernelCpuSeconds": 35.75,
+    "cpuConsumptionPercent": 48.6941,
+    "maxRss": 2346119168,
+    "pageFaults": {
+      "IORequired": 817357,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 6819,
+      "writes": 37
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=E:": "E:\\ValentiGamez\\Projects\\valentigamez_com\\comunidad\\frontend",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\Valenti\\AppData\\Roaming",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "132223624833487366",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPOSE_CONVERT_WINDOWS_PATHS": "true",
+    "COMPUTERNAME": "DESKTOP-S48I4GR",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "CUDA_PATH": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2",
+    "CUDA_PATH_V10_2": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Valenti",
+    "IDEA_INITIAL_DIRECTORY": "C:\\WINDOWS\\system32",
+    "INIT_CWD": "E:\\ValentiGamez\\Projects\\valentigamez_com\\comunidad\\frontend",
+    "INTEL_DEV_REDIST": "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jre1.8.0_181",
+    "LOCALAPPDATA": "C:\\Users\\Valenti\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-S48I4GR",
+    "MIC_LD_LIBRARY_PATH": "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\compiler\\lib\\mic",
+    "NODE": "C:\\Program Files\\nodejs\\node.exe",
+    "NODE_ENV": "development",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"dev\"],\"original\":[\"dev\"]}",
+    "npm_config_bin_links": "true",
+    "npm_config_ignore_optional": "",
+    "npm_config_ignore_scripts": "",
+    "npm_config_init_license": "MIT",
+    "npm_config_init_version": "1.0.0",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "npm_config_save_prefix": "^",
+    "npm_config_strict_ssl": "true",
+    "npm_config_user_agent": "yarn/1.21.1 npm/? node/v12.14.0 win32 x64",
+    "npm_config_version_commit_hooks": "true",
+    "npm_config_version_git_message": "v%s",
+    "npm_config_version_git_sign": "",
+    "npm_config_version_git_tag": "true",
+    "npm_config_version_tag_prefix": "v",
+    "npm_execpath": "C:\\Program Files (x86)\\Yarn\\bin\\yarn.js",
+    "npm_lifecycle_event": "dev",
+    "npm_lifecycle_script": "nuxt",
+    "npm_node_execpath": "C:\\Program Files\\nodejs\\node.exe",
+    "npm_package_author_name": "iamvalentigamez",
+    "npm_package_dependencies_lodash": "^4.17.15",
+    "npm_package_dependencies_nuxt": "^2.0.0",
+    "npm_package_dependencies_nuxt_fontawesome": "^0.4.0",
+    "npm_package_dependencies_qr_code_with_logo": "^1.1.0",
+    "npm_package_dependencies_tiptap": "^1.27.1",
+    "npm_package_dependencies_tiptap_extensions": "^1.29.1",
+    "npm_package_dependencies__fortawesome_fontawesome_svg_core": "^1.2.27",
+    "npm_package_dependencies__fortawesome_free_brands_svg_icons": "^5.12.1",
+    "npm_package_dependencies__fortawesome_free_solid_svg_icons": "^5.12.1",
+    "npm_package_dependencies__fortawesome_vue_fontawesome": "^0.1.9",
+    "npm_package_dependencies__nuxtjs_auth": "^4.8.5",
+    "npm_package_dependencies__nuxtjs_axios": "^5.3.6",
+    "npm_package_dependencies__nuxtjs_google_analytics": "^2.3.0",
+    "npm_package_description": "Ulises.",
+    "npm_package_devDependencies_eslint_config_prettier": "^4.1.0",
+    "npm_package_devDependencies_eslint_plugin_prettier": "^3.0.1",
+    "npm_package_devDependencies_prettier": "^1.16.4",
+    "npm_package_devDependencies__nuxtjs_vuetify": "^1.11.0",
+    "npm_package_license": "MIT",
+    "npm_package_name": "ulises",
+    "npm_package_private": "true",
+    "npm_package_readmeFilename": "README.md",
+    "npm_package_resolutions_prosemirror_model": "1.8.2",
+    "npm_package_scripts_build": "nuxt build",
+    "npm_package_scripts_dev": "nuxt",
+    "npm_package_scripts_generate": "nuxt generate",
+    "npm_package_scripts_start": "nuxt start",
+    "npm_package_version": "0.0.1",
+    "NUMBER_OF_PROCESSORS": "6",
+    "NVCUDASAMPLES10_2_ROOT": "C:\\ProgramData\\NVIDIA Corporation\\CUDA Samples\\v10.2",
+    "NVCUDASAMPLES_ROOT": "C:\\ProgramData\\NVIDIA Corporation\\CUDA Samples\\v10.2",
+    "NVM_HOME": "C:\\Users\\Valenti\\AppData\\Roaming\\nvm",
+    "NVM_SYMLINK": "C:\\Program Files\\nodejs",
+    "NVTOOLSEXT_PATH": "C:\\Program Files\\NVIDIA Corporation\\NvToolsExt\\",
+    "OneDrive": "C:\\Users\\Valentí\\OneDrive",
+    "OPENSSL_CONF": "C:\\Program Files\\PostgreSQL\\psqlODBC\\etc\\openssl.cnf",
+    "OS": "Windows_NT",
+    "PATH": "C:\\Users\\Valenti\\AppData\\Local\\Temp\\yarn--1606182826360-0.4397455314531782;E:\\ValentiGamez\\Projects\\valentigamez_com\\comunidad\\frontend\\node_modules\\.bin;C:\\Users\\Valenti\\AppData\\Local\\Yarn\\Data\\link\\node_modules\\.bin;C:\\Program Files\\libexec\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\node-gyp-bin;E:\\ValentiGamez\\Projects\\valentigamez_com\\comunidad\\frontend\\node_modules\\.bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.2\\libnvvp;C:\\Users\\Valenti\\AppData\\Local\\Programs\\Python\\Python37;C:\\Users\\Valenti\\AppData\\Local\\Programs\\Python\\Python37\\Scripts;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY\\;C:\\php-7.3.16;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Valenti\\AppData\\Roaming\\npm;C:\\Program Files\\Adobe;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\Android\\adb-fastboot\\platform-tools;E:\\Android\\heimdall-suite;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2019.5.0\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Users\\Valenti\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Program Files\\ffmpeg\\bin;C:\\Program Files (x86)\\Gow\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PostgreSQL\\10\\bin;C:\\Users\\Valenti\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\dotnet\\;E:\\Program Files\\Microsoft Visual Studio\\MSBuild\\Current\\Bin;E:\\cpp\\scons-3.1.2\\build\\scripts;E:\\Program Files\\Microsoft Visual Studio\\VC\\Tools\\MSVC\\14.24.28314\\bin\\Hostx64\\x64;E:\\GodotProjects\\bin;E:\\cpp\\cygwin\\bin;;C:\\Program Files\\Symfony;C:\\Users\\Valenti\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Valentí\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Valentí\\AppData\\Roaming\\npm;C:\\Users\\Valentí\\AppData\\Local\\Yarn\\bin;C:\\Users\\Valenti\\AppData\\Roaming\\npm;C:\\Users\\Valenti\\AppData\\Local\\Yarn\\bin;C:\\Users\\Valenti\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Users\\Valenti\\.dotnet\\tools",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "9e0a",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files (x86)\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Google\\Cloud SDK\\google-cloud-sdk\\platform\\PowerShell",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\Valenti\\AppData\\Local\\Temp",
+    "TERMINAL_EMULATOR": "JetBrains-JediTerm",
+    "TMP": "C:\\Users\\Valenti\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-S48I4GR",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-S48I4GR",
+    "USERNAME": "valenti",
+    "USERPROFILE": "C:\\Users\\Valenti",
+    "VBOX_MSI_INSTALL_PATH": "E:\\VirtualBox\\",
+    "VS140COMNTOOLS": "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\",
+    "VUE_ENV": "server",
+    "windir": "C:\\WINDOWS",
+    "YARN_WRAP_OUTPUT": "false",
+    "_AXIOS_BASE_URL_": "http://localhost:8000",
+    "__INTELLIJ_COMMAND_HISTFILE__": "C:\\Users\\Valenti\\AppData\\Roaming\\JetBrains\\PhpStorm2020.1\\terminal\\history\\history-1120"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\winmmbase.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\System32\\UMPDC.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\Program Files\\Bonjour\\mdnsNSP.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\WINDOWS\\System32\\fwpuclnt.dll",
+    "\\\\?\\E:\\ValentiGamez\\Projects\\valentigamez_com\\comunidad\\frontend\\node_modules\\fibers\\bin\\win32-x64-72\\fibers.node"
+  ]
+}
